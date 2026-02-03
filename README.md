@@ -1,6 +1,8 @@
-# WEB ATELIER (UDIT) – Student Project Template
+# Mi portfolio – Olivia Cendra Calavia
 
 _Critical Coding for a Better Living._
+
+[https://oliviacendra.github.io/awesome-web/](http://127.0.0.1:5500/)
 
 **Build a real, accessible, multilingual site—commit every week.**
 
