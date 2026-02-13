@@ -1,19 +1,67 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../assets/css/style.css">
-  <script src="../assets/js/main.js" defer></script>
-  <title>Documento HTML5 Básico</title>
-</head>
-<body>
-  <header>
-    <h1>Bienvenido a mi página</h1>
-  </header>
-  <main>
-    <p>Este es un ejemplo de estructura básica en HTML5.</p>
-  </main>
-  <footer>
-    <p>&copy; 2025 Tu Nombre</p>
-  </footer>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="ejemplo1/assets/css/style.css" />
+    <script src="../assets/js/main.js" defer></script>
+    <title>Documento HTML5 Básico</title>
+  </head>
+  <body>
+    <header>
+      <h1>Bienvenido a mi página</h1>
+    </header>
+    <main>
+      <p>Este es un ejemplo de estructura básica en HTML5.</p>
+    </main>
+    <footer>
+      <p>&copy; 2025 Tu Nombre</p>
+    </footer>
+    <header>
+      <h1>Mi landing</h1>
+      <nav>
+        <a href="#about">Sobre mí</a>
+        <a href="#projects">Proyectos</a>
+        <a href="#contact">Contacto</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero">
+        <h2>Bienvenido</h2>
+        <p>Una frase inspiradora para mi sitio.</p>
+      </section>
+
+      <section id="about">
+        <h2>Sobre mí</h2>
+        <p>Texto de presentación personal.</p>
+      </section>
+
+      <section id="projects">
+        <h2>Proyectos</h2>
+        <article>
+          <h3>Proyecto 1</h3>
+          <p>Descripción breve.</p>
+        </article>
+        <article>
+          <h3>Proyecto 2</h3>
+          <p>Descripción breve.</p>
+        </article>
+      </section>
+
+      <section id="contact">
+        <h2>Contacto</h2>
+        <form>
+          <input type="text" placeholder="Tu nombre" required />
+          <input type="email" placeholder="Tu email" required />
+          <textarea placeholder="Tu mensaje"></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2025 · Mi Nombre</p>
+    </footer>
+  </body>
+</html>
